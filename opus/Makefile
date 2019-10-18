@@ -1,6 +1,6 @@
 # Port Metadata
 PORTNAME = 			opus
-PORTVERSION = 		1.1.1
+PORTVERSION = 		1.3.1
 
 MAINTAINER =        Lawrence Sebald <ljsebald@users.sourceforge.net>
 LICENSE =           3-clause BSD (see COPYING in the source distribution)
