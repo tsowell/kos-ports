@@ -1,6 +1,6 @@
 # Port Metadata
 PORTNAME = 			lua
-PORTVERSION = 		5.3.0
+PORTVERSION = 		5.3.5
 
 MAINTAINER =        Nobody
 LICENSE =           MIT License (http://opensource.org/licenses/MIT)

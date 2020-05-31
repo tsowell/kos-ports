@@ -1,6 +1,6 @@
 # Port Metadata
 PORTNAME =        libjpeg
-PORTVERSION =     9.1
+PORTVERSION =     9.3
 
 MAINTAINER =      Lawrence Sebald <ljsebald@users.sourceforge.net>
 LICENSE =         IJG license (see README in the source distribution!)
@@ -11,12 +11,12 @@ DEPENDENCIES =
 
 # What files we need to download, and where from.
 DOWNLOAD_SITE =   http://ijg.org/files
-DOWNLOAD_FILES =  jpegsrc.v9a.tar.gz
+DOWNLOAD_FILES =  jpegsrc.v9c.tar.gz
 
 TARGET =          libjpeg.a
 INSTALLED_HDRS =  jconfig.h jmorecfg.h jpeg.h jpeglib.h jpegint.h jerror.h
 HDR_INSTDIR =     jpeg
-DISTFILE_DIR =    jpeg-9a
+DISTFILE_DIR =    jpeg-9c
 
 # KOS Distributed extras (to be copied into the build tree)
 KOS_DISTFILES =   KOSMakefile.mk kos_img.c kos_texture.c jpeg.h

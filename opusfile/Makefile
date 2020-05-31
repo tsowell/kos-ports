@@ -1,6 +1,6 @@
 # Port Metadata
 PORTNAME = 			opusfile
-PORTVERSION = 		0.6
+PORTVERSION = 		0.11
 
 MAINTAINER =        Lawrence Sebald <ljsebald@users.sourceforge.net>
 LICENSE =           3-clause BSD (see COPYING in the source distribution)
