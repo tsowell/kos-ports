@@ -1,6 +1,5 @@
 # Port Metadata
 PORTNAME = 			libtremor
-PORTVERSION = 		19480
 
 MAINTAINER =        Lawrence Sebald <ljsebald@users.sourceforge.net>
 LICENSE =           3-clause BSD (see COPYING in the source distribution)
@@ -10,8 +9,8 @@ SHORT_DESC =        Vorbis audio decoder library (integer version)
 DEPENDENCIES =
 
 # What files we need to download, and where from.
-SVN_REPOSITORY =    http://svn.xiph.org/branches/lowmem-branch/Tremor/
-SVN_REVISION =      19480
+GIT_REPOSITORY =    https://gitlab.xiph.org/xiph/tremor.git
+GIT_BRANCH     =    lowmem
 
 TARGET =			libtremor.a
 INSTALLED_HDRS =	ivorbiscodec.h ivorbisfile.h sndoggvorbis.h
